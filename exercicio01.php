@@ -19,12 +19,10 @@
 
     if(isset($_POST['verificar_par'])){
         $numero = $_POST['numero_par'];
-        $ehPrimo = true;
-        if($numero <= 1){
-            $ehPrimo = false;
+    
         }else{
             for($i = 2; $i <= sqrt($numero); $i++){
-                // Verifica se o número é par ou ímpar
+                
                 if ($numero % 2 == 0) {
                     $par = true;
                 } else {
@@ -35,7 +33,7 @@
                 }
             }
         }
-        echo "O número $numero é ". ($par ? 'primo':'não é primo');
+        echo "O número $numero é ". ($par ? 'par':'não é par');
     };
 
    ;
