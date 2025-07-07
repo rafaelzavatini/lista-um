@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Numéro par ou impar</title>
+    <title>tabuada</title>
 </head>
 <body>
     
